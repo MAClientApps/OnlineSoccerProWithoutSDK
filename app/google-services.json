@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306424766616",
+    "project_id": "online-soccer-pro-10a0f",
+    "storage_bucket": "online-soccer-pro-10a0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306424766616:android:3cf9608b3a3ca4d8f030ed",
+        "android_client_info": {
+          "package_name": "com.apponline.soccerpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306424766616-ivfm9r7f6tj1dadjab8sjh9j7qa967eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjQqsH3PI_BVjbTvvz9O0wD9BZ8Bi21Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306424766616-ivfm9r7f6tj1dadjab8sjh9j7qa967eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
