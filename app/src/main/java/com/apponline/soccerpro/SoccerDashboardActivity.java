@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.unity3d.ads.UnityAds;
 import com.unity3d.services.banners.BannerView;
@@ -31,8 +32,13 @@ public class SoccerDashboardActivity extends AppCompatActivity {
         btnPlay1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(SoccerDashboardActivity.this, SoccerPlayActivity.class);
-                startActivity(it);
+                if (SoccerAdMobClass.isConctionAvailableLv(getApplicationContext())){
+                    Intent it = new Intent(SoccerDashboardActivity.this, SoccerPlayActivity.class);
+                    startActivity(it);
+                }else{
+                    Toast.makeText(SoccerDashboardActivity.this, "Please check your internet connection", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
 
